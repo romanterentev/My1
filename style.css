@@ -1,0 +1,19 @@
+.btn {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    font-size: 25px;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+.btn:hover {
+    background-color: moccasin;
+}
+
+.btn-wrapper {
+    width: 700px;
+    height: 50%;
+    display: flex;
+    margin-left: auto;
+}
