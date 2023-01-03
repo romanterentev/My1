@@ -1,0 +1,21 @@
+
+Mouse1Pressed ==================
+
+var clickClick = function (evt) {
+  if (window.utils.isMouseLeftPressed(evt)) {
+    console.log('Событие по клику для тренировки, УДАЛЮ СКОРО');
+    window.popups.showErrorPopup();
+  }
+};
+document.addEventListener('click', clickClick);
+
+
+EnterPressed ==================
+
+  var clickClick = function (evt) {
+    if (window.utils.isEnterPressed(evt)) {
+      console.log('Событие по клику для тренировки, УДАЛЮ СКОРО');
+      resetFilters();
+    }
+  };
+  document.addEventListener('keydown', clickClick);
